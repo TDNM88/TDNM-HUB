@@ -1,21 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es5", // Hoặc "esnext" nếu muốn hỗ trợ các tính năng mới hơn
-    "lib": ["dom", "dom.iterable", "esnext"], // Thêm "dom.iterable" và "esnext" cho React
-    "allowJs": true, // Cho phép JavaScript nếu cần
-    "skipLibCheck": true, // Bỏ qua kiểm tra thư viện để tăng tốc
-    "esModuleInterop": true, // Tương thích tốt hơn với module JavaScript
-    "allowSyntheticDefaultImports": true, // Cho phép import mặc định từ module không có export default
-    "strict": true, // Bật chế độ strict type checking
-    "forceConsistentCasingInFileNames": true, // Đảm bảo tên file nhất quán
-    "noFallthroughCasesInSwitch": true, // Ngăn lỗi trong switch-case
-    "module": "esnext", // Sử dụng module hệ thống hiện đại
-    "moduleResolution": "node", // Giải quyết module theo Node.js
-    "resolveJsonModule": true, // Cho phép import file JSON
-    "isolatedModules": true, // Tối ưu cho các module độc lập (yêu cầu của react-scripts)
-    "noEmit": true, // Không emit file JavaScript (react-scripts sẽ xử lý)
-    "jsx": "react-jsx" // Hỗ trợ JSX trong file .tsx với React 17+
+    "target": "es5", // Hoặc "esnext" để hỗ trợ tính năng mới
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
   },
-  "include": ["src"], // Chỉ compile các file trong thư mục src
-  "exclude": ["node_modules"] // Loại trừ node_modules
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
