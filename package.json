@@ -41,7 +41,9 @@
     "react-day-picker": "^8.10.1",
     "tailwind-merge": "^2.4.0",
     "tailwindcss-animate": "^1.0.7",
-    "vaul": "^0.9.1"
+    "vaul": "^0.9.1",
+    "svgo": "^2.8.0",
+    "eslint": "^9.8.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
