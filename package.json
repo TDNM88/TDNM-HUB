@@ -2,7 +2,10 @@
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^4.0.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^5.5.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
     "lucide-react": "latest",
     "recharts": "2.9.0",
     "react-router-dom": "latest",
